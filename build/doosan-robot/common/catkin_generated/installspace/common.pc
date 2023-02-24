@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/jv_ws/install
+
+Name: common
+Description: Description of common
+Version: 1.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp gazebo_ros control_toolbox xmlrpcpp
